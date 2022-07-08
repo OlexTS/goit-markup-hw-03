@@ -20,6 +20,18 @@ body {
   color: var(--main-txt-clr);
 }
 
+/* Based styles */
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: red solid 2px;
+  outline-offset: -2px;
+}
+
 /* Reset styles */
 
 .link {
