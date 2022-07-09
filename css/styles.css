@@ -37,6 +37,20 @@ body {
   padding-bottom: 94px;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 /* Reset styles */
 
 h1,
@@ -58,6 +72,10 @@ p {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+img {
+  display: block;
 }
 
 /* Header section */
@@ -149,7 +167,7 @@ p {
 
 .hero-title {
   width: 696px;
-  margin: auto;
+  margin: 0 auto;
   margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
@@ -246,11 +264,18 @@ p {
 
 .team-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
 }
-
-.team-img {
-  margin-bottom: 30px;
+/* .team-list {
+  flex-basis: calc((100% - 30px * 3) / 4);
+} */
+.team-card {
+  padding: 30px 5px 30px 5px;
+  border-radius: 0px 0px 4px 4px;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .employee-title {
@@ -264,7 +289,6 @@ p {
 }
 
 .team-text {
-  margin-bottom: 30px;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -344,12 +368,13 @@ p {
   gap: 30px;
 }
 
-.potfolio-item {
-  margin-bottom: 20px;
+.work-item {
+  flex-basis: calc((100% - 30px * 2) / 3);
 }
 
 .portfolio-title {
   margin-left: 24px;
+  margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -359,8 +384,16 @@ p {
 
 .portfolio-text {
   margin-left: 24px;
-  margin-bottom: 20px;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
+}
+
+.potfolio-border {
+  border: 1px solid #eeeeee;
+  border-top: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
