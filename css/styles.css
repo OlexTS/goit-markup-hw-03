@@ -28,9 +28,10 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  outline: ed solid 2px;
+  outline: red solid 2px;
   outline-offset: -2px;
 }
+
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -47,10 +48,12 @@ h6,
 p {
   margin: 0;
 }
+
 .link {
   text-decoration: none;
   color: currentColor;
 }
+
 .list {
   margin: 0;
   padding: 0;
@@ -63,6 +66,7 @@ p {
   align-items: center;
   border-bottom: 1px solid #ececec;
 }
+
 .logo {
   font-family: 'Raleway';
   font-style: normal;
@@ -72,23 +76,29 @@ p {
   letter-spacing: 0.03em;
   color: var(--accent-txt-color);
 }
+
 .header-logo {
   color: var(--logo-txt-clr);
 }
+
 .header-nav {
   margin: auto;
-  justify-content: center;
+  margin-left: 93px;
 }
+
 .header-list {
   display: flex;
   gap: 50px;
 }
+
 .header-contacts {
   display: flex;
 }
+
 .header-mail {
   margin-right: 50px;
 }
+
 .header-link,
 .mail-link,
 .phone-link {
@@ -101,21 +111,26 @@ p {
   letter-spacing: 0.02em;
   color: var(--secondary-dark-txt-clr);
 }
+
 .header-link:hover,
 .header-link:focus {
   color: var(--accent-txt-color);
 }
+
 .header-link-current {
   color: var(--accent-txt-color);
 }
+
 .mail-link,
 .phone-link {
   color: inherit;
 }
+
 .mail-link:hover,
 .mail-link:focus {
   color: var(--accent-txt-color);
 }
+
 .phone-link:hover,
 .phone-link:focus {
   color: var(--accent-txt-color);
@@ -126,12 +141,15 @@ p {
 .footer {
   background: var(--dark-bg-clr);
 }
+
 .hero {
   padding-top: 200px;
   padding-bottom: 200px;
 }
+
 .hero-title {
   width: 696px;
+  margin: auto;
   margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
@@ -141,12 +159,14 @@ p {
   text-transform: uppercase;
   color: var(--secondary-light-txt-clr);
 }
+
 .hero-btn,
 .portfolio-btn {
   font-family: inherit;
   cursor: pointer;
   border: none;
 }
+
 .hero-btn {
   margin: 0 auto;
   display: block;
@@ -161,6 +181,7 @@ p {
   letter-spacing: 0.06em;
   color: var(--light-bg-clr);
 }
+
 .hero-btn:hover,
 .hero-btn:focus {
   color: var(--secondary-light-txt-clr);
@@ -172,12 +193,16 @@ p {
 .benefits {
   padding-bottom: 0;
 }
+
 .benefits-container {
   align-items: center;
 }
+
 .benefits-list {
   display: flex;
+  gap: 30px;
 }
+
 .benefits-title {
   margin-bottom: 10px;
   font-weight: 700;
@@ -187,6 +212,7 @@ p {
   text-transform: uppercase;
   color: var(--secondary-dark-txt-clr);
 }
+
 .benefits-text {
   width: 270px;
   font-size: 14px;
@@ -200,6 +226,7 @@ p {
   display: flex;
   gap: 30px;
 }
+
 .about-title,
 .team-title {
   margin-bottom: 50px;
@@ -212,16 +239,20 @@ p {
 }
 
 /* Team section */
+
 .team {
   background: var(--light-bg-clr);
 }
+
 .team-list {
   display: flex;
   gap: 30px;
 }
+
 .team-img {
   margin-bottom: 30px;
 }
+
 .employee-title {
   margin-bottom: 10px;
   font-weight: 500;
@@ -231,6 +262,7 @@ p {
   letter-spacing: 0.03em;
   color: var(--secondary-dark-txt-clr);
 }
+
 .team-text {
   margin-bottom: 30px;
   font-size: 16px;
@@ -244,19 +276,24 @@ p {
 .footer-logo {
   color: var(--secondary-light-txt-clr);
 }
+
 .footer-container {
   padding-top: 60px;
   padding-bottom: 57px;
 }
+
 .footer-item {
   margin-bottom: 9px;
 }
+
 .footer-item:last-child {
   margin-bottom: 0;
 }
+
 .footer-address {
   margin-top: 20px;
 }
+
 .address-link {
   font-style: normal;
   color: var(--secondary-light-txt-clr);
@@ -283,6 +320,7 @@ p {
   justify-content: center;
   padding-bottom: 50px;
 }
+
 .portfolio-btn {
   padding: 6px 22px;
   border-radius: 4px;
@@ -293,29 +331,35 @@ p {
   color: var(--secondary-dark-txt-clr);
   background-color: var(--light-bg-clr);
 }
+
 .portfolio-btn:hover,
 .portfolio-btn:focus {
   background-color: var(--accent-txt-color);
   color: var(--secondary-light-txt-clr);
 }
+
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
+
 .potfolio-item {
   margin-bottom: 20px;
 }
+
 .portfolio-title {
-  margin: 20px 24px 4px 24px;
+  margin-left: 24px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--secondary-dark-txt-clr);
 }
+
 .portfolio-text {
-  margin: 0 24px 20px 24px;
+  margin-left: 24px;
+  margin-bottom: 20px;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
