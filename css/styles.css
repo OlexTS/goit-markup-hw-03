@@ -28,8 +28,6 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  outline: red solid 2px;
-  outline-offset: -2px;
 }
 
 .section {
@@ -82,7 +80,6 @@ img {
 .header-container {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #ececec;
 }
 
 .logo {
@@ -152,6 +149,9 @@ img {
 .phone-link:hover,
 .phone-link:focus {
   color: var(--accent-txt-color);
+}
+.header {
+  border-bottom: 1px solid #ececec;
 }
 
 /* hero section */
@@ -374,11 +374,12 @@ img {
 
 .portfolio-title {
   margin-left: 24px;
+  margin-right: 24px;
   margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.05em;
   color: var(--secondary-dark-txt-clr);
 }
 
